@@ -118,7 +118,7 @@ public class MaterialTutorialActivity extends AppCompatActivity implements Mater
 
     @Override
     public void showSkipButton() {
-        mTextViewSkip.setVisibility(View.VISIBLE);
+        mTextViewSkip.setVisibility(View.INVISIBLE);
         mNextButton.setVisibility(View.VISIBLE);
         mDoneButton.setVisibility(View.GONE);
     }
